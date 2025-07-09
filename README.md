@@ -6,7 +6,7 @@ spd是一个轻量级的通过端口号查询正在运行进程信息的工具�
 - 查看`小于`某个端口的所有进程：`spd port-`
 - 查询`大于`某个端口的所有进程: `spd port+`
 - `精准`查询某个端口的进程: `spd port`
-- 查询某个`范围`的所有进程: `spd port-start port-end`
+- 查询某个`范围`的所有进程: `spd portStart-portEnd`
 
 ## 安装教程
 将[spd.sh](spd.sh)脚本保存在`/usr/local/bin`目录下，便于直接在控制台调用，下面是mac电脑配置。
